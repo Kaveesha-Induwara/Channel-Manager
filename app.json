@@ -1,0 +1,20 @@
+{
+  "name": "Force-SubscribeBot",
+  "description": "This is a telegram bot writen in python for managing group/channel.",
+  "keywords": [
+    "telegram",
+    "forcesubscribe",
+    "forcesub"
+  ],
+  "repository": "https://github.com/sachink4s/Force-SubscribeBot",
+  "success_url": "https://github.com/sachink4s/Force-SubscribeBot",
+  "website": "https://github.com/sachink4s/Force-SubscribeBot",  
+  "addons": [],
+  "buildpacks": [],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }  
+}
