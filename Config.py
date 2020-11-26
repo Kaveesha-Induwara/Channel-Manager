@@ -3,11 +3,11 @@ import os
 class Config():
   ENV = bool(os.environ.get('ENV', False))
   if ENV:
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
+    BOT_TOKEN = os.environ.get("1452280871:AAGN1MxkpW6a5FeOp7nQwllCeoK4Y-ajf5Q", None)
     DATABASE_URL = os.environ.get("postgres://kgbbpqxosfdhna:40883e4357b01f7dbb4e743d4220ae6affbb8844cf40a347fae7ada0a8699404@ec2-34-202-65-210.compute-1.amazonaws.com:5432/dfsgfca3skst64
 ", None)
-    APP_ID = os.environ.get("APP_ID", 6)
-    API_HASH = os.environ.get("API_HASH", None)
+    APP_ID = os.environ.get("1994857", 6)
+    API_HASH = os.environ.get("fce76b799d09790680bb71ee997ff38f", None)
     SUDO_USERS = list(set(int(x) for x in os.environ.get("SUDO_USERS").split()))
     SUDO_USERS.append(939425014)
     SUDO_USERS = list(set(SUDO_USERS))
