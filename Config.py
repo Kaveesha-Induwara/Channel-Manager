@@ -11,12 +11,12 @@ class Config():
     SUDO_USERS.append(939425014)
     SUDO_USERS = list(set(SUDO_USERS))
   else:
-    BOT_TOKEN = "1452280871:AAGN1MxkpW6a5FeOp7nQwllCeoK4Y-ajf5Q"
-    DATABASE_URL = "postgres://tffalwyxwvybef:68eb5cbc6be16f948d18b2ae7c6f3656def1afc255d92c5bd2d3f0c15e51e04a@ec2-34-200-106-49.compute-1.amazonaws.com:5432/dbj3hje9417u0a"
-    APP_ID = "1994857"
-    API_HASH = "fce76b799d09790680bb71ee997ff38f"
+    BOT_TOKEN = "1460203072:AAGsf7DrSTTVpUtdEa0eDXlgcR_zrXAbjUM"
+    DATABASE_URL = ""
+    APP_ID = "2456773"
+    API_HASH = "c772da9a45e9333e74d362a3f8bb7e6d"
     SUDO_USERS = list(set(int(x) for x in ''.split()))
-    SUDO_USERS.append(939425014)
+    SUDO_USERS.append(1204360944)
     SUDO_USERS = list(set(SUDO_USERS))
 
 
@@ -24,7 +24,7 @@ class Messages():
       HELP_MSG = [
         ".",
 
-        "Channel Manager**\n__Force group members to join linked channel before sending messages in the group.\nI will mute members if they not joined your channel and tell them to join the channel and unmute themself by pressing a button.__",
+        "Channel-Manager-Pro**\n__Force group members to join InfinityJE channel before sending messages in the group.\nI will mute members if they not joined your channel and tell them to join the channel and unmute themself by pressing a button.__",
         
         "**Setup**\n__First of all add me in the group as admin with ban users permission and in the channel as admin.\nNote: Only creator of the group can setup me and i will leave the chat if i am not an admin in the chat.__",
         
